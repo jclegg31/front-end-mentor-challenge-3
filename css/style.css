@@ -12,16 +12,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  border: 2px solid blue;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 18px;
 }
 
 .container {
   display: flex;
-  width: 600px;
+  width: 500px;
   justify-content: center;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 5.95px 5.95px 25.6px;
 }
 
 .results {
@@ -41,11 +41,6 @@ body {
   padding-top: 10px;
   padding-bottom: 25px;
   color: hsl(241, 100%, 89%);
-}
-
-.summary {
-  width: 50%;
-  padding: 20px;
 }
 
 .results-score {
@@ -81,13 +76,116 @@ body {
 
 .text p {
   font-size: 0.8rem;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   color: hsl(241, 100%, 89%);
   letter-spacing: 0.5px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
+.summary {
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.summary h2 {
+  font-size: 1.1rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.summary-scores {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.score-reaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: hsla(0, 100%, 67%, 0.1);
+}
+
+.reaction-span {
+  color: hsl(0, 52%, 60%);
+  font-weight: bold;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.score-container img {
+  padding-right: 8px;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.score-memory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: hsla(39, 100%, 56%, 0.1);
+}
+
+.memory-span {
+  color: hsl(39, 100%, 56%);
+  font-weight: bold;
+}
+
+.score-verbal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: hsla(166, 100%, 37%, 0.12);
+}
+
+.verbal-span {
+  color: hsl(166, 100%, 37%);
+  font-weight: bold;
+}
+
+.score-visual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: hsla(234, 85%, 45%, 0.1);
+}
+
+.visual-span {
+  color: hsl(234, 85%, 45%);
+  font-weight: bold;
+}
+
+.grey {
+  color: hsl(241, 27%, 69%);
+  padding-right: 15px;
+}
+
+.black-text {
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  padding: 12px;
+  border-radius: 100vw;
+  color: hsl(0, 0%, 100%);
+  background: hsl(224, 30%, 27%);
+  margin-top: 15px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
