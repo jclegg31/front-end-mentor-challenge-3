@@ -98,6 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .score-reaction {
@@ -189,15 +190,6 @@ body {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (max-width: 760px) {
   .container {
     width: 375px;
@@ -266,4 +258,13 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
